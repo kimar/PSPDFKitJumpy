@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8398A6DE48CBCC82563FF1C /* Pods_PSPDFKitJump.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67414C2516A5001B05A61888 /* Pods_PSPDFKitJump.framework */; };
+		EC4A14EC1CA0A2AF00AD97B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4A14EB1CA0A2AF00AD97B1 /* AppDelegate.swift */; };
+		EC4A14EE1CA0A2AF00AD97B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4A14ED1CA0A2AF00AD97B1 /* ViewController.swift */; };
+		EC4A14F11CA0A2AF00AD97B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC4A14EF1CA0A2AF00AD97B1 /* Main.storyboard */; };
+		EC4A14F31CA0A2AF00AD97B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4A14F21CA0A2AF00AD97B1 /* Assets.xcassets */; };
+		EC4A14F61CA0A2AF00AD97B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC4A14F41CA0A2AF00AD97B1 /* LaunchScreen.storyboard */; };
+		ECD8032C1CA0B4CA00C4FBEB /* CustomPdfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD8032B1CA0B4CA00C4FBEB /* CustomPdfViewController.swift */; };
+		ECD8032E1CA0BA9E00C4FBEB /* ContainmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD8032D1CA0BA9E00C4FBEB /* ContainmentViewController.swift */; };
+		ECD803321CA0BDD800C4FBEB /* pdf-sample.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ECD803311CA0BDD800C4FBEB /* pdf-sample.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2002DAE8E291E0216E466D10 /* Pods-PSPDFKitJump.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSPDFKitJump.release.xcconfig"; path = "Pods/Target Support Files/Pods-PSPDFKitJump/Pods-PSPDFKitJump.release.xcconfig"; sourceTree = "<group>"; };
+		67414C2516A5001B05A61888 /* Pods_PSPDFKitJump.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PSPDFKitJump.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F766B203E3F61C0F2EF804 /* Pods-PSPDFKitJump.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSPDFKitJump.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PSPDFKitJump/Pods-PSPDFKitJump.debug.xcconfig"; sourceTree = "<group>"; };
+		EC4A14E81CA0A2AF00AD97B1 /* PSPDFKitJump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSPDFKitJump.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4A14EB1CA0A2AF00AD97B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC4A14ED1CA0A2AF00AD97B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC4A14F01CA0A2AF00AD97B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC4A14F21CA0A2AF00AD97B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC4A14F51CA0A2AF00AD97B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC4A14F71CA0A2AF00AD97B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECD8032B1CA0B4CA00C4FBEB /* CustomPdfViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPdfViewController.swift; sourceTree = "<group>"; };
+		ECD8032D1CA0BA9E00C4FBEB /* ContainmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainmentViewController.swift; sourceTree = "<group>"; };
+		ECD803311CA0BDD800C4FBEB /* pdf-sample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "pdf-sample.pdf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC4A14E51CA0A2AF00AD97B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8398A6DE48CBCC82563FF1C /* Pods_PSPDFKitJump.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F178164757AD7102EDBE93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2F766B203E3F61C0F2EF804 /* Pods-PSPDFKitJump.debug.xcconfig */,
+				2002DAE8E291E0216E466D10 /* Pods-PSPDFKitJump.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		34A57713939C2FFAA658EAEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67414C2516A5001B05A61888 /* Pods_PSPDFKitJump.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC4A14DF1CA0A2AF00AD97B1 = {
+			isa = PBXGroup;
+			children = (
+				EC4A14EA1CA0A2AF00AD97B1 /* PSPDFKitJump */,
+				EC4A14E91CA0A2AF00AD97B1 /* Products */,
+				04F178164757AD7102EDBE93 /* Pods */,
+				34A57713939C2FFAA658EAEC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EC4A14E91CA0A2AF00AD97B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC4A14E81CA0A2AF00AD97B1 /* PSPDFKitJump.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC4A14EA1CA0A2AF00AD97B1 /* PSPDFKitJump */ = {
+			isa = PBXGroup;
+			children = (
+				ECD803311CA0BDD800C4FBEB /* pdf-sample.pdf */,
+				EC4A14EB1CA0A2AF00AD97B1 /* AppDelegate.swift */,
+				ECD8032D1CA0BA9E00C4FBEB /* ContainmentViewController.swift */,
+				ECD8032B1CA0B4CA00C4FBEB /* CustomPdfViewController.swift */,
+				EC4A14ED1CA0A2AF00AD97B1 /* ViewController.swift */,
+				EC4A14EF1CA0A2AF00AD97B1 /* Main.storyboard */,
+				EC4A14F21CA0A2AF00AD97B1 /* Assets.xcassets */,
+				EC4A14F41CA0A2AF00AD97B1 /* LaunchScreen.storyboard */,
+				EC4A14F71CA0A2AF00AD97B1 /* Info.plist */,
+			);
+			path = PSPDFKitJump;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC4A14E71CA0A2AF00AD97B1 /* PSPDFKitJump */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC4A14FA1CA0A2AF00AD97B1 /* Build configuration list for PBXNativeTarget "PSPDFKitJump" */;
+			buildPhases = (
+				754140E5D2B516A05E70D5E9 /* Check Pods Manifest.lock */,
+				EC4A14E41CA0A2AF00AD97B1 /* Sources */,
+				EC4A14E51CA0A2AF00AD97B1 /* Frameworks */,
+				EC4A14E61CA0A2AF00AD97B1 /* Resources */,
+				60022A55805FCF04E127E26F /* Embed Pods Frameworks */,
+				D1F9D0DF395860AF965B3244 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PSPDFKitJump;
+			productName = PSPDFKitJump;
+			productReference = EC4A14E81CA0A2AF00AD97B1 /* PSPDFKitJump.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC4A14E01CA0A2AF00AD97B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Atlassian;
+				TargetAttributes = {
+					EC4A14E71CA0A2AF00AD97B1 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EC4A14E31CA0A2AF00AD97B1 /* Build configuration list for PBXProject "PSPDFKitJump" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC4A14DF1CA0A2AF00AD97B1;
+			productRefGroup = EC4A14E91CA0A2AF00AD97B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC4A14E71CA0A2AF00AD97B1 /* PSPDFKitJump */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC4A14E61CA0A2AF00AD97B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4A14F61CA0A2AF00AD97B1 /* LaunchScreen.storyboard in Resources */,
+				EC4A14F31CA0A2AF00AD97B1 /* Assets.xcassets in Resources */,
+				EC4A14F11CA0A2AF00AD97B1 /* Main.storyboard in Resources */,
+				ECD803321CA0BDD800C4FBEB /* pdf-sample.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60022A55805FCF04E127E26F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PSPDFKitJump/Pods-PSPDFKitJump-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		754140E5D2B516A05E70D5E9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D1F9D0DF395860AF965B3244 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PSPDFKitJump/Pods-PSPDFKitJump-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC4A14E41CA0A2AF00AD97B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD8032C1CA0B4CA00C4FBEB /* CustomPdfViewController.swift in Sources */,
+				ECD8032E1CA0BA9E00C4FBEB /* ContainmentViewController.swift in Sources */,
+				EC4A14EE1CA0A2AF00AD97B1 /* ViewController.swift in Sources */,
+				EC4A14EC1CA0A2AF00AD97B1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC4A14EF1CA0A2AF00AD97B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC4A14F01CA0A2AF00AD97B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC4A14F41CA0A2AF00AD97B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC4A14F51CA0A2AF00AD97B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC4A14F81CA0A2AF00AD97B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC4A14F91CA0A2AF00AD97B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC4A14FB1CA0A2AF00AD97B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2F766B203E3F61C0F2EF804 /* Pods-PSPDFKitJump.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PSPDFKitJump/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atlassian.PSPDFKitJump;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC4A14FC1CA0A2AF00AD97B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2002DAE8E291E0216E466D10 /* Pods-PSPDFKitJump.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PSPDFKitJump/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atlassian.PSPDFKitJump;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC4A14E31CA0A2AF00AD97B1 /* Build configuration list for PBXProject "PSPDFKitJump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4A14F81CA0A2AF00AD97B1 /* Debug */,
+				EC4A14F91CA0A2AF00AD97B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC4A14FA1CA0A2AF00AD97B1 /* Build configuration list for PBXNativeTarget "PSPDFKitJump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4A14FB1CA0A2AF00AD97B1 /* Debug */,
+				EC4A14FC1CA0A2AF00AD97B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC4A14E01CA0A2AF00AD97B1 /* Project object */;
+}
